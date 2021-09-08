@@ -1,1 +1,18 @@
-%h1 Este es mi título principal
+#banner
+    .banner_content
+        %h1 File Cabinet
+        %p Your life's work. Organized, always.
+        %button= link_to "Enter", new_user_registration_path
+
+#callouts
+    .callout_inner 
+        .wrapper
+            .callout
+                %h2 Organize
+                %p There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
+
+#bottom_cta
+    .wrapper
+        %h2 Go Ahead!
+        %br
+        %button= link_to "Join Now", new_user_registration_path
